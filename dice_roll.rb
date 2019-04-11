@@ -2,9 +2,6 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
-require 'pry'
-
 def roll
-  binding.pry
-  rand[1, 2, 3, 4, 5, 6].to_i
+  rand([1, 2, 3, 4, 5, 6]).to_i
 end
